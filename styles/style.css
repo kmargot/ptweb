@@ -1,0 +1,151 @@
+/* OUTILS */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,latin-ext);
+
+/*                                                                          GENERAUX */
+html {
+    font-size: 16px;
+}
+.clearfix:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+.wrapper{
+    margin: auto;
+    width: 90%;    
+}
+
+/*                                                                          BODY */
+body {    
+    background-image: url(../img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;    
+    display: block;
+    font-family: Roboto;    
+    height: 100%;
+    width: 100%;
+}
+
+/*                                                                          HEADER */
+header {
+    height: 100vh;
+    font-family: Roboto Condensed;
+}
+.header-menu {
+    padding: 1em;
+    position: fixed;
+    width:100%;
+    z-index: 10;    
+}
+.header-menu ul li {    
+    display: inline;    
+    font-size: 17pt;
+    font-weight: 300;    
+    padding: 1em;
+    text-transform: uppercase;    
+}
+.header-menu ul li:first-child {
+    font-weight: 700;
+}
+.header-menu a {    
+    color: white;
+    text-decoration: none;
+}
+.header-titre{
+    font-size: 48pt;    
+    left: calc(50% - 10em);
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20em;
+}
+.header-titre h1 {
+    letter-spacing: 0.25em;
+    margin-top: 15vh;
+    padding: 0.5em;
+}
+.header-titre img {
+    height: 30vh;
+}
+.arrow {
+    bottom: 1em;
+    color: white;
+    left: 50%;
+    position: absolute;
+    font-size: 3.5em;
+}
+
+/*                                                                          MAIN */
+main {
+    background-color: #171717;
+    color: white;
+}
+main h1 {
+    font-size: 30px;
+    letter-spacing: 0.1em;    
+    padding: 1em;
+    text-transform: uppercase;
+}
+.margotkeller img {
+    height: 257px;
+    float: left;
+    width: 205px;
+}
+.margotkeller p {
+    height: 257px;
+    margin: auto;
+    width: 70%;
+}
+.fond-interet {    
+    background-size: cover;
+    background-image: url(../img/fond-interet.jpg);
+    height: 275px;    
+}
+.interet1, .interet2, .interet3, .interet4 {
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-top: 2em;
+}
+.newspaper, .desktop, .flask, .binoculars {
+    font-size: 9em;
+    margin: auto;
+}
+/*                                                                          FOOTER */
+.footer-haut {
+    background-color: white;
+    color: #171717;
+    height: 14em;
+}
+.viadeo, .linkedin{
+    float: left;
+    margin-left: 12em;
+    height:14em;
+}
+.viadeo-picto, .linkedin-picto {
+    color: #171717;
+    font-size: 8em;    
+    line-height: 1.5em;
+}
+.adresse {
+    float: right;
+    margin-right: 12em;
+    margin-top: 3.5em;        
+    line-height: 1.5em;
+}
+footer h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em; 
+    font-weight: 700;
+}
+.footer-bas {
+    text-align: center;
+    background-color: #171717;
+    color: white;
+}
+.footer-bas p {
+    line-height: 5em;
+    font-size: 16px;
+    height: 5em;
+}

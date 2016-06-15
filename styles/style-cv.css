@@ -1,0 +1,138 @@
+/* OUTILS */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,latin-ext);
+
+/*                                                                          GENERAUX */
+html {
+    font-size: 16px;
+}
+.clearfix:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+.wrapper{
+    margin: auto;
+    width: 90%;    
+}
+/*                                                                          BODY */
+body {    
+    color: white;    
+    display: block;
+    font-family: Roboto;    
+    height: 100%;
+    width: 100%;
+}
+
+/*                                                                          HEADER */
+header {
+    font-family: Roboto Condensed; 
+}
+.header-cv {    
+    height: 359px;
+    background-image: url(../img/header-cv.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-menu {
+    padding: 1em;
+    position: fixed;
+    width:100%;
+    z-index: 1;    
+}
+.header-menu ul li {    
+    display: inline;    
+    font-size: 17pt;
+    font-weight: 300;    
+    padding: 1em;
+    text-transform: uppercase;    
+}
+.header-menu ul li:nth-child(2) {
+    font-weight: 700;
+}
+.header-menu a {    
+    color: white;
+    text-decoration: none;
+}
+
+/*                                                                          MAIN */
+main {
+    background-color: #171717;
+    color: white;
+}
+main h1 {
+    font-size: 40px;
+    letter-spacing: 0.3em;    
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+
+
+/*                                                                          FOOTER */
+.footer-haut {
+    background-color: white;
+    color: #171717;
+    height: 14em;
+}
+.viadeo, .linkedin{
+    float: left;
+    margin-left: 12em;
+    height:14em;
+}
+.viadeo-picto, .linkedin-picto {
+    color: #171717;
+    font-size: 8em;    
+    line-height: 1.5em;
+}
+.adresse {
+    float: right;
+    margin-right: 12em;
+    margin-top: 3.5em;        
+    line-height: 1.5em;
+}
+footer h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em; 
+    font-weight: 700;
+}
+.footer-bas {
+    text-align: center;
+    background-color: #171717;
+    color: white;
+}
+.footer-bas p {
+    line-height: 5em;
+    font-size: 16px;
+    height: 5em;
+}
+
+
+
+
+
+#progress1, #progress2{
+    width: 70%;
+    margin: auto;
+}
+progress{
+    display: inline-block;
+    width: 50%;
+    height: 15px;
+    background-color: #171717; 
+    border-radius: 5px; 
+    color: #bcbeed; /* Pour IE10 */
+}
+progress::-webkit-progress-bar, {     
+    background: #bcbeed;
+    /* ici les styles généraux pour Webkit */
+}
+progress::-webkit-progress-value {      
+    background: #bcbeed;
+    /* styles de barre d'avancement pour Webkit */
+}  
+progress::-moz-progress-bar {     
+    background: #bcbeed;
+    /* styles de barre d'avancement pour Firefox */
+}
+

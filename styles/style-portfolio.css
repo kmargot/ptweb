@@ -1,0 +1,77 @@
+/* OUTILS */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,latin-ext);
+
+/*                                                                          GENERAUX */
+html {
+    font-size: 16px;
+}
+.clearfix:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+.wrapper{
+    margin: auto;
+    width: 90%;    
+}
+/*                                                                          BODY */
+body {    
+    background-image: url(../img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;    
+    display: block;
+    font-family: Roboto;    
+    height: 100%;
+    width: 100%;
+}
+
+/*                                                                          HEADER */
+header {
+    height: 100vh;
+    position: relative;
+    font-family: Roboto Condensed; 
+}
+.header-menu {
+    padding: 1em;
+    position: fixed;
+    width:100%;
+    z-index: 1;    
+}
+.header-menu ul li {    
+    display: inline;    
+    font-size: 17pt;
+    font-weight: 300;    
+    padding: 1em;
+    text-transform: uppercase;    
+}
+.header-menu ul li:first-child {
+    font-weight: 700;
+}
+.header-menu a {    
+    color: white;
+    text-decoration: none;
+}
+/*                                                                          FOOTER */
+.footer-haut {
+    background-color: white;
+    color: #171717;
+}
+.viadeo, .linkedin{
+    float: left;
+    margin-left: 10em;
+}
+.adresse {
+    float: right;
+}
+.viadeo-picto, .linkedin-picto {
+    color: #171717;
+    font-size: 8em;
+}
+
+
+.footer-bas {
+    background-color: #171717;
+    color: white;
+    font-size: 
+}
