@@ -1,27 +1,28 @@
 
 
-
-
-function modifValues(){
-        var val = $('#progress1 progress').attr('value');
-        if(val>=70){val=70;}
-        var newVal = val*1+2;     
-      
-        $('#progress1 progress').attr('value',newVal).text(txt);
-        $('#progress1 strong').html(txt);
-
+/* function modifValues(){
+    $('.progressbar').each(function(){
+        var val = $(this).attr('value');
+        var score = $(this).attr('score');
+//        console.log('test');
+         if(val < score){
+             val = val+1;
+             $(this).attr(value) = val;
+         }
+        else {
+            clearInterval(x);
+        }
+    })
 }
-setInterval(function(){ modifValues(); },40);
+
+var x = setInterval(function(){ modifValues(); },40); */
+
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
 
 
-
-function modifValues(){
-        var val = $('#progress2 progress').attr('value');
-        if(val>=70){val=70;}
-        var newVal = val*1+2;     
-      
-        $('#progress2 progress').attr('value',newVal).text(txt);
-        $('#progress2 strong').html(txt);
-
-}
-setInterval(function(){ modifValues(); },40);

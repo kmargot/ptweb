@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="237.792px" height="352.868px" viewBox="0 0 237.792 352.868" enable-background="new 0 0 237.792 352.868"
+	 xml:space="preserve">
+<g id="Calque_1">
+</g>
+<g id="tete">
+	<polygon fill="none" stroke="#DBDBDB" stroke-width="2.6368" stroke-miterlimit="10" points="147.19,1.536 198.169,43.725 
+		187.622,72.73 55.78,41.967 	"/>
+</g>
+<g id="bec">
+	<polygon fill="none" stroke="#DBDBDB" stroke-width="2.6368" stroke-miterlimit="10" points="194.268,54.452 184.985,79.762 
+		233.327,87.672 	"/>
+</g>
+<g id="nageoire">
+	<polygon fill="none" stroke="#DBDBDB" stroke-width="2.6368" stroke-miterlimit="10" points="111.153,94.704 55.78,303.893 
+		20.622,313.561 	"/>
+</g>
+<g id="dos">
+	<polygon fill="none" stroke="#DBDBDB" stroke-width="2.6368" stroke-miterlimit="10" points="111.153,54.452 55.78,41.967 
+		1.382,173.809 29.721,291.564 111.153,94.704 	"/>
+</g>
+<g id="ventre">
+	<polygon fill="none" stroke="#DBDBDB" stroke-width="2.6368" stroke-miterlimit="10" points="144.193,62.597 111.153,54.452 
+		111.153,94.704 55.78,303.893 41.357,307.859 65.888,350.477 117.306,350.477 139.28,266.098 	"/>
+</g>
+<g id="jambe">
+	<polygon fill="none" stroke="#DBDBDB" stroke-width="2.6368" stroke-miterlimit="10" points="132.248,343.445 139.28,266.098 
+		117.306,350.477 	"/>
+	
+		<line fill="none" stroke="#E8E8E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="-245.618" y1="29.202" x2="-195.05" y2="79.771"/>
+	
+		<line fill="none" stroke="#E8E8E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="-195.05" y1="79.736" x2="-144.481" y2="29.168"/>
+</g>
+</svg>
