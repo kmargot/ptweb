@@ -27,8 +27,8 @@ body {
 header {
     font-family: Roboto Condensed; 
 }
-.header-cv {    
-    height: 359px;
+.header-fond {    
+    height: 231px;
     background-image: url(../img/header-contact.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -43,9 +43,11 @@ header {
 .header-menu ul li {    
     display: inline;    
     font-size: 17pt;
-    font-weight: 300;    
+    font-weight: 300; 
+    letter-spacing: 0.05em;
     padding: 1em;
-    text-transform: uppercase;    
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 1px #171717;
 }
 .header-menu ul li:nth-child(4) {
     font-weight: 700;
@@ -60,14 +62,12 @@ main {
     background-color: #171717;
     color: white;
 }
-.main-align {    
-    text-align: center;
-}
 main h1 {
     font-size: 30px;
     letter-spacing: 0.1em;    
     padding: 1em;
     text-transform: uppercase;
+    text-align: center;
 }
 main p {
     
@@ -83,20 +83,32 @@ form {
 .text1{
     width:40%;
     margin: 1em;
-    background: white;
-    color: #171717;
+    border: solid 1px white;
+    background: transparent;
+    color: white;
     padding: 6px 15px 6px 35px;
-    transition: 500ms all ease;
 }
 .text2 {
     width:70%;
     height: 200px;
     margin: 1em;
+    border: solid 1px white;
+    background: transparent;
+    color: white;
+    padding: 6px 15px 6px 35px;
+    margin-bottom: 5em;
+}
+.text1:focus, .text2:focus {
+    background-color: white;
+    color: #171717;
+}
+
+.submit {
+    margin: 1em;
     background: white;
     color: #171717;
-    padding: 6px 15px 6px 35px;
-    transition: 500ms all ease;
-    margin-bottom: 5em;
+    border: 0px;
+    padding: 6px 15px 6px 15px;
 }
 ::-webkit-input-placeholder {
     font-family: Roboto;

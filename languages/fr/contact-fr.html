@@ -9,7 +9,7 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="header-cv">
+        <div class="header-fond">
         <header>
             <nav class="header-menu">
                 <ul>
@@ -22,15 +22,14 @@
         </header>
         </div>
         <main>
-            <div class="main-align">
                 <h1>contactez-moi</h1>
-            </div>
             <section class="form-logo clearfix">
-                <form>
-                    <input class="text1" type="text" placeholder="Votre nom/prénom"><br />
-                    <input class="text1" class="textbox" type="email" placeholder="Votre email"><br />
-                    <input class="text1" class="textbox" type="text" placeholder="Objet"><br />
-                    <textarea class="text2" placeholder="Votre message"></textarea>
+                <form name="form-contact" method="post">
+                    <input class="text1" name="nom" type="text" placeholder="Votre nom/prénom"><br />
+                    <input class="text1" name="email" class="textbox" type="email" placeholder="Votre email"><br />
+                    <input class="text1" name="objet" class="textbox" type="text" placeholder="Objet"><br />
+                    <textarea class="text2" name="message" placeholder="Votre message"></textarea>
+                    <input class="submit" type="submit" value="Envoyer">
                 </form>
                 <img src="../../img/logo_contact.png">
                 
