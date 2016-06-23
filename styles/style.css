@@ -3,40 +3,40 @@
 
 /*                                                                          GENERAUX */
 html {
-    font-size: 16px;
+    font-size:                      16px;
 }
 .clearfix:after{
-    display: block;
-    content:'';
-    clear: both;
+    display:                        block;
+    content:                        '';
+    clear:                          both;
 }
 .wrapper{
-    margin: auto;
-    width: 90%;    
+    margin:                         auto;
+    width:                          90%;    
 }
 
 /*                                                                          BODY */
 body {    
-    background-image: url(../img/header.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;    
-    display: block;
-    font-family: Roboto;    
-    height: 100%;
-    width: 100%;
+    background-image:               url(../img/header.jpg);
+    background-attachment:          fixed;
+    background-size:                cover;
+    color:                          white;    
+    display:                        block;
+    font-family:                    Roboto;    
+    height:                         100%;
+    width:                          100%;
 }
 
 /*                                                                          HEADER */
 header {
-    height: 100vh;
-    font-family: Roboto Condensed;
+    height:                         100vh;
+    font-family:                    Roboto Condensed;
 }
 .header-menu {
-    padding: 1em;
-    position: fixed;
-    width:100%;
-    z-index: 10;    
+    padding:                        1em;
+    position:                       fixed;
+    width:                          100%;
+    z-index:                        10;    
 }
 .header-menu ul li {    
     display: inline;    

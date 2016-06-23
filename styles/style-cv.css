@@ -143,7 +143,32 @@ main h1 {
 	color:#ffffff;
 	color: white;
 }
+/*                                                                          FORMATIONS */
+.formation1, .formation2, .formation3 { 
+    margin: auto;
+    margin: 2em;
+}
+.date-formation{
+    float: left;
+    text-align: right;
+    width: 20%;
+}
+.dut, .fac, .bac {
+    float: left;
+    background-color: white;
+    color: #171717;
+    width: 80%;
+}
 
+.formation1 h2, .formation2 h2, .formation3 h2 { 
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 30px;
+    height: 30px;
+}
 
 /*                                                                          FOOTER */
 .footer-haut {
@@ -184,4 +209,31 @@ footer h3 {
 }
 
 
+.arrow-down {
+    font-size: 1.5em;
+    height: 30px;
+    padding: 1em;
+    font-weight: 700;
+    float: left;
+}
+.dut:hover, .fac:hover, .bac:hover {
+    color: white;
+    background-color: #171717;
+    border: solid 1px white;
+    box-sizing: border-box;
+}
+.formation-infos {
+    color: white;
+    background-color: #171717;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+    line-height: 1.5em;
+    }
 
+.formation-infos p {
+    margin-left: 4em;
+}
+.formation-infos.open {
+        height: 5em;
+    }
