@@ -3,40 +3,46 @@
 
 /*                                                                          GENERAUX */
 html {
-    font-size:                      16px;
+    font-size: 16px;
 }
 .clearfix:after{
-    display:                        block;
-    content:                        '';
-    clear:                          both;
+    display: block;
+    content: '';
+    clear: both;
 }
 .wrapper{
-    margin:                         auto;
-    width:                          90%;    
+    margin: auto;
+    width: 90%;    
 }
 
 /*                                                                          BODY */
 body {    
-    background-image:               url(../img/header.jpg);
-    background-attachment:          fixed;
-    background-size:                cover;
-    color:                          white;    
-    display:                        block;
-    font-family:                    Roboto;    
-    height:                         100%;
-    width:                          100%;
+    background-image: url(../img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;    
+    display: block;
+    font-family: Roboto;    
+    height: 100%;
+    width: 100%;
 }
 
 /*                                                                          HEADER */
+.menu-button {
+    display: none;
+}
+.row-menu {
+        display: none;
+    }
 header {
-    height:                         100vh;
-    font-family:                    Roboto Condensed;
+    height: 100vh;
+    font-family: Roboto Condensed;
 }
 .header-menu {
-    padding:                        1em;
-    position:                       fixed;
-    width:                          100%;
-    z-index:                        10;    
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 10;    
 }
 .header-menu ul li {    
     display: inline;    
@@ -86,6 +92,7 @@ main {
     background-color: #171717;
     color: white;
     text-align: center;
+    display:block;
 }
 main h1 {
     font-size: 30px;
@@ -121,43 +128,39 @@ main h1 {
     font-weight: 500;
     text-transform: uppercase;
 }
-.interet1, .interet2, .interet3, .interet4 {
+.interet1, .interet2, .interet3 {
     float: left;
     text-align: center;
-    width: 25%;
+    width: 33%;
 }
-.newspaper, .desktop, .flask, .binoculars {
+.newspaper, .desktop, .flask {
     font-size: 7em;
     margin: auto;
 }
 /*                                                                          FOOTER */
+
 .footer-haut {
     background-color: white;
     color: #171717;
-    height: 14em;
-}
-.viadeo, .linkedin{
-    float: left;
-    margin-left: 12em;
-    height:14em;
+    text-align: center;
+    padding: 1em;
 }
 .viadeo-picto, .linkedin-picto {
     color: #171717;
-    font-size: 8em;    
-    line-height: 1.5em;
+    font-size: 3em; 
+    margin: 0.3em;
 }
-.adresse {
-    float: right;
-    margin-right: 12em;
-    margin-top: 3.5em;        
-    line-height: 1.5em;
-}
-footer h3 {
+.footer-haut h3 {
     text-transform: uppercase;
     letter-spacing: 0.2em; 
     font-weight: 700;
+    line-height: 2em;
+}
+.footer-haut p {    
+    line-height: 1.5em;
 }
 .footer-bas {
+    margin: auto;
     text-align: center;
     background-color: #171717;
     color: white;
@@ -166,5 +169,45 @@ footer h3 {
     line-height: 5em;
     font-size: 16px;
     height: 5em;
+}
+
+
+
+/* FORMAT TABLETTE */
+@media (max-width: 800px){
+    .wrapper {
+        width: 100%;
+    }
+    nav ul {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.5s;
+    }
+    nav ul.open {
+        height: 4em;
+    }
+    .menu-button {
+        font-weight: 500;
+        font-size: 2em;
+        height: 1em;
+        line-height: 1em;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    .menu-button {
+        display: block;
+    }
+    
+    nav {
+        text-align: center;
+        margin: auto;
+    }
+    .row-menu {
+        display: block;
+    }
+    footer {
+        width: 100%;
+    }
 }
 

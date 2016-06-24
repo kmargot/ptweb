@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Margot Keller</title>
         <link rel="stylesheet" href="./styles/reset_css.css">
         <link rel="stylesheet" href="./fonts/font-awesome-4.6.3/css/font-awesome.css">
@@ -11,9 +11,11 @@
     <body>
         <header>
             <nav class="header-menu">
-                <ul id="top-page">
+                <div id="unfold" class="menu-button"><em class="fa fa-bars"></em></div>
+                <ul id="menu" id="top-page">
                     <li><a href="index.html">margot keller</a></li>
                     <li><a href="languages/fr/cv-fr.html">curriculum vitae</a></li>
+                    <div class="row-menu"><br /></div>
                     <li><a href="languages/fr/portfolio-fr.html">portfolio</a></li>
                     <li><a href="languages/fr/contact-fr.html">contact</a></li>
                 </ul>
@@ -62,32 +64,6 @@
                                 <i class="fa fa-flask flask" aria-hidden="true"></i>
                                 <h2>Sciences</h2>
                             </div>
-                            <div class="interet4">
-                                <i class="fa fa-binoculars binoculars" aria-hidden="true"></i>
-                                <h2>Observations</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix wrapper">
-                        <div class="interet1">
-                            <p>
-                                Quotidienne, numérique et scientifique
-                            </p>
-                        </div>
-                        <div class="interet2">
-                             <p>
-                                Web, jeux vidéo
-                            </p>   
-                        </div>
-                        <div class="interet3">
-                            <p>
-                                Ethologie, Géologie
-                            </p>        
-                        </div>
-                        <div class="interet4">
-                            <p>
-                               Observation animale 
-                            </p>       
                         </div>
                     </div>
                 
@@ -96,16 +72,14 @@
         </main>
         <footer>
             <section class="footer-haut">
-                <div class="clearfix wrapper">
-                    <div class="viadeo"><a href="http://www.viadeo.com/p/0022cymuwixrem5h" target="_blank"><i class="fa fa-viadeo viadeo-picto" aria-hidden="true"></i></a></div>
-                    <div class="linkedin"><a href="https://fr.linkedin.com/in/margot-keller-546560110" target="_blank"><i class="fa fa-linkedin-square linkedin-picto" aria-hidden="true"></i></a></div>
-                    <div class="adresse">
-                        <h3>keller margot</h3>
-                        <p>
-                            67500 Haguenau<br />
-                            keller.margot67@gmail.com<br />
-                        </p>
-                    </div>
+                <div class="wrapper">
+                    <h3>keller margot</h3>
+                    <p>
+                        67500 Haguenau<br />
+                        keller.margot67@gmail.com<br />
+                        <a href="https://fr.linkedin.com/in/margot-keller-546560110" target="_blank"><i class="fa fa-linkedin-square linkedin-picto" aria-hidden="true"></i></a>
+                        <a href="http://www.viadeo.com/p/0022cymuwixrem5h" target="_blank"><i class="fa fa-viadeo viadeo-picto" aria-hidden="true"></i></a>
+                    </p>
                 </div>
             </section>
             <section class="footer-bas">

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Margot Keller</title>
         <link rel="stylesheet" href="../../styles/reset_css.css">
         <link rel="stylesheet" href="../../fonts/font-awesome-4.6.3/css/font-awesome.css">
@@ -9,24 +9,30 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="header-fond">
+        <div class="header-bg">
         <header>
             <nav class="header-menu">
-                <ul>
+                <div id="unfold" class="menu-button"><em class="fa fa-bars"></em></div>
+                <ul id="menu">
                     <li><a href="../../index.html">margot keller</a></li>
                     <li><a href="cv-fr.html">curriculum vitae</a></li>
+                    <div class="row-menu"><br /></div>
                     <li><a href="portfolio-fr.html">portfolio</a></li>
                     <li><a href="contact-fr.html">contact</a></li>
                 </ul>
             </nav>      
         </header>
         </div>
-        <main>            
+        <main>
+            <ul>
+                <li><a href="#" class="integration-link">Intégration</a></li>
+                <li><a href="#" class="infographie-link">Infographie</a></li>
+            </ul>
             <h1>intégration</h1>
             <div class="wrapper clearfix">
-                <div class="content">
+                <div class="content galerie">
                     <div class="grid">
-                        <figure class="effect-julia">
+                        <figure class="effect-julia integration-content">
                             <img src="../../img/auberge.jpg" alt="auberge-rothlach"/>
                             <figcaption>
                                 <h2>Auberge de <span>la Rothlach</span></h2>
@@ -38,7 +44,7 @@
                                 </div>
                             </figcaption>			
                         </figure>
-                        <figure class="effect-julia">
+                        <figure class="effect-julia infographie-content">
                             <img src="../../img/portfolio.jpg" alt="portfolio"/>
                             <figcaption>
                                 <h2>Mon <span>portfolio</span></h2>
@@ -87,17 +93,14 @@
         </main>
         <footer>
             <section class="footer-haut">
-                <div class="clearfix wrapper">
-                    <div class="viadeo"><a href="http://www.viadeo.com/p/0022cymuwixrem5h" target="_blank"><i class="fa fa-viadeo viadeo-picto" aria-hidden="true"></i></a></div>
-                    <div class="linkedin"><a href="https://fr.linkedin.com/in/margot-keller-546560110" target="_blank"><i class="fa fa-linkedin-square linkedin-picto" aria-hidden="true"></i></a></div>
-                    <div class="adresse">
-                        <h3>keller margot</h3>
-                        <p>
-                            3, rue des Capucins<br />
-                            67500 Haguenau<br />
-                            keller.margot67@gmail.com<br />
-                        </p>
-                    </div>
+                <div class="wrapper">
+                    <h3>keller margot</h3>
+                    <p>
+                        67500 Haguenau<br />
+                        keller.margot67@gmail.com<br />
+                        <a href="https://fr.linkedin.com/in/margot-keller-546560110" target="_blank"><i class="fa fa-linkedin-square linkedin-picto" aria-hidden="true"></i></a>
+                        <a href="http://www.viadeo.com/p/0022cymuwixrem5h" target="_blank"><i class="fa fa-viadeo viadeo-picto" aria-hidden="true"></i></a>
+                    </p>
                 </div>
             </section>
             <section class="footer-bas">
@@ -110,5 +113,6 @@
         
         <script src="../../js/jquery-2.2.4.min.js"></script>
         <script src="../../js/header-menu.js"></script>
+        <script src="../../js/portfolio.js"></script>
     </body>
 </html>

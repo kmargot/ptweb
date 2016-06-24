@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Margot Keller</title>
         <link rel="stylesheet" href="../../styles/reset_css.css">
         <link rel="stylesheet" href="../../fonts/font-awesome-4.6.3/css/font-awesome.css">
@@ -9,55 +9,53 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="header-fond">
         <header>
             <nav class="header-menu">
-                <ul>
+                <div id="unfold" class="menu-button"><em class="fa fa-bars"></em></div>
+                <ul id="menu">
                     <li><a href="../../index.html">margot keller</a></li>
                     <li><a href="cv-fr.html">curriculum vitae</a></li>
+                    <div class="row-menu"><br /></div>
                     <li><a href="portfolio-fr.html">portfolio</a></li>
                     <li><a href="contact-fr.html">contact</a></li>
                 </ul>
-            </nav>      
+            </nav>         
         </header>
-        </div>
         <main>
             <h1>compétences</h1>
             <div class="wrapper">
-                <div class="skillbar clearfix " data-percent="70%">
+                <div class="skillbar clearfix " data-percent="50%">
                     <div class="skillbar-title"><span>HTML5</span></div>
                     <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">70%</div>
+                    <div class="skill-bar-percent">50%</div>
+                    <p>Intégration de maquette - sémantique HTML5</p>
                 </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="65%">
+                <div class="skillbar clearfix " data-percent="45%">
                     <div class="skillbar-title"><span>CSS3</span></div>
                     <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">65%</div>
+                    <div class="skill-bar-percent">45%</div>
+                    <p>Animations CSS3</p>
                 </div> <!-- End Skill Bar -->
-
+                
                 <div class="skillbar clearfix " data-percent="40%">
-                    <div class="skillbar-title"><span>PHP</span></div>
+                    <div class="skillbar-title"><span>CMS</span></div>
                     <div class="skillbar-bar"></div>
                     <div class="skill-bar-percent">40%</div>
+                    <p>Wordpress</p>
                 </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="50%">
-                    <div class="skillbar-title"><span>Wordpress</span></div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">50%</div>
-                </div> <!-- End Skill Bar -->
-
+                
                 <div class="skillbar clearfix " data-percent="60%">
                     <div class="skillbar-title"><span>Illustrator</span></div>
                     <div class="skillbar-bar"></div>
                     <div class="skill-bar-percent">60%</div>
+                    <p>Dessin vectoriel - création de logo</p>
                 </div> <!-- End Skill Bar -->
 
                 <div class="skillbar clearfix " data-percent="50%">
                     <div class="skillbar-title"><span>Photoshop</span></div>
                     <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">50%</div>
+                    <div class="skill-bar-percent">55%</div>
+                    <p>Création de maquette - détourage - retouches photos </p>
                 </div> <!-- End Skill Bar -->                
             </div>
 
@@ -68,9 +66,9 @@
                         <h2>2015</h2>
                     </div>
                     <div class="dut" >
-                        <div id="formation" >
+                        <div id="formation1" >
                             <i class="fa fa-angle-down arrow-down" aria-hidden="true"></i><h2>dut métiers du multimédia et de l'internet</h2>   </div>
-                        <div id="formation-content" class="formation-infos">
+                        <div id="formation-content1" class="formation-infos">
                             <p>IUT Haguenau</p>
                             <p>Etudiante en première année </p>
                             <p>Développement web - infographie</p>
@@ -82,9 +80,9 @@
                         <h2>2014 - 2015</h2>
                     </div>
                     <div class="fac">
-                        <div id="formation1" >
+                        <div id="formation2" >
                             <i class="fa fa-angle-down arrow-down" aria-hidden="true"></i><h2>L1 Sciences du vivant</h2>   </div>
-                        <div id="formation-content1" class="formation-infos">
+                        <div id="formation-content2" class="formation-infos">
                             <p>Université de Strasbourg</p>
                             <p>Réorientation à la fin de cette L1</p>
                             <p>Biodiversité - biochimie - biologie cellulaire</p>
@@ -96,9 +94,9 @@
                         <h2>2011 - 2014</h2>
                     </div>
                     <div class="bac">
-                        <div id="formation2" >
+                        <div id="formation3" >
                             <i class="fa fa-angle-down arrow-down" aria-hidden="true"></i><h2>Baccalauréat Scientifique</h2>   </div>
-                        <div id="formation-content2" class="formation-infos">
+                        <div id="formation-content3" class="formation-infos">
                             <p>Lycée Schuré de Barr</p>
                             <p>Spécialité Sciences de la Vie et de la Terre</p>
                             <p>Mention Européenne</p>
@@ -111,17 +109,14 @@
         </main>
         <footer>
             <section class="footer-haut">
-                <div class="clearfix wrapper">
-                    <div class="viadeo"><a href="http://www.viadeo.com/p/0022cymuwixrem5h" target="_blank"><i class="fa fa-viadeo viadeo-picto" aria-hidden="true"></i></a></div>
-                    <div class="linkedin"><a href="https://fr.linkedin.com/in/margot-keller-546560110" target="_blank"><i class="fa fa-linkedin-square linkedin-picto" aria-hidden="true"></i></a></div>
-                    <div class="adresse">
-                        <h3>keller margot</h3>
-                        <p>
-                            3, rue des Capucins<br />
-                            67500 Haguenau<br />
-                            keller.margot67@gmail.com<br />
-                        </p>
-                    </div>
+                <div class="wrapper">
+                    <h3>keller margot</h3>
+                    <p>
+                        67500 Haguenau<br />
+                        keller.margot67@gmail.com<br />
+                        <a href="https://fr.linkedin.com/in/margot-keller-546560110" target="_blank"><i class="fa fa-linkedin-square linkedin-picto" aria-hidden="true"></i></a>
+                        <a href="http://www.viadeo.com/p/0022cymuwixrem5h" target="_blank"><i class="fa fa-viadeo viadeo-picto" aria-hidden="true"></i></a>
+                    </p>
                 </div>
             </section>
             <section class="footer-bas">

@@ -24,11 +24,18 @@ body {
 }
 
 /*                                                                          HEADER */
-header {
-    font-family: Roboto Condensed; 
+.menu-button {
+    display: none;
 }
-.header-fond {    
-    height: 231px;
+.row-menu {
+        display: none;
+    }
+header {
+    font-family: Roboto Condensed;
+    height: 30vh;
+}
+.header-bg {
+    
     background-image: url(../img/header-portfolio.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -49,7 +56,7 @@ header {
     text-transform: uppercase;  
     text-shadow: 1px 1px 1px #171717;
 }
-.header-menu ul li:nth-child(3) {
+.header-menu ul li:nth-last-child(2) {
     font-weight: 700;
 }
 .header-menu a {    
@@ -61,6 +68,7 @@ header {
 main {
     background-color: #171717;
     color: white;
+    display:block;
 }
 main h1 {
     font-size: 30px;
@@ -78,33 +86,29 @@ main h1 {
     margin: 2em;
 }
 /*                                                                          FOOTER */
+
 .footer-haut {
     background-color: white;
     color: #171717;
-    height: 14em;
-}
-.viadeo, .linkedin{
-    float: left;
-    margin-left: 12em;
-    height:14em;
+    text-align: center;
+    padding: 1em;
 }
 .viadeo-picto, .linkedin-picto {
     color: #171717;
-    font-size: 8em;    
-    line-height: 1.5em;
+    font-size: 3em; 
+    margin: 0.3em;
 }
-.adresse {
-    float: right;
-    margin-right: 12em;
-    margin-top: 3.5em;        
-    line-height: 1.5em;
-}
-footer h3 {
+.footer-haut h3 {
     text-transform: uppercase;
     letter-spacing: 0.2em; 
     font-weight: 700;
+    line-height: 2em;
+}
+.footer-haut p {    
+    line-height: 1.5em;
 }
 .footer-bas {
+    margin: auto;
     text-align: center;
     background-color: #171717;
     color: white;
@@ -114,7 +118,6 @@ footer h3 {
     font-size: 16px;
     height: 5em;
 }
-
 
 
 
@@ -295,5 +298,44 @@ figure.effect-julia:hover p {
 	transform: translate3d(0,0,0);
 }
 
+
+/* FORMAT TABLETTE */
+@media (max-width: 800px){
+    .wrapper {
+        width: 100%;
+    }
+    header {
+    height: 118px;
+    }
+    nav ul {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.5s;
+    }
+    nav ul.open {
+        height: 4em;
+    }
+    .menu-button {
+        font-weight: 500;
+        font-size: 2em;
+        height: 1em;
+        line-height: 1em;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    .menu-button {
+        display: block;
+    }
+    
+    nav {
+        text-align: center;
+        margin: auto;
+    }
+    .row-menu {
+        display: block;
+    }
+    
+}
 
 
