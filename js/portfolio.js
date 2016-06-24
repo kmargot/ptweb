@@ -2,6 +2,7 @@
 jQuery(document).ready(function()
 {
      jQuery('.galerie').hide();
+    jQuery('.test').hide();
    // On cache la zone 
    // jQuery('.graphisme').hide();
   //  jQuery('.integration').hide();
@@ -13,7 +14,7 @@ jQuery(document).ready(function()
   {
        jQuery('.infographie-content').hide();
        
-      jQuery('.integration-content').show(800);
+      jQuery('.test').toggle;
       return false;
    });
     jQuery('a.infographie-link').click(function()

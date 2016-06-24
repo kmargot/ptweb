@@ -101,7 +101,6 @@ form {
     background: transparent;
     color: white;
     padding: 6px 15px 6px 35px;
-    margin-bottom: 5em;
 }
 .text1:focus, .text2:focus {
     background-color: white;
@@ -110,11 +109,20 @@ form {
 
 .button-submit {
     margin: 1em;
-    background: white;
-    color: #171717;
+    background: #171717;
+    color: white;    
     border: 0px;
-    padding: 6px 15px 6px 15px;
-    text-align: left;
+    padding: 4px 10px 4px 10px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    
+    border: solid 1px white;
+    text-transform: uppercase;
+}
+.button-submit:hover {
+    color: #171717;
+    background: white;    
 }
 ::-webkit-input-placeholder {
     font-family: Roboto;
@@ -140,7 +148,7 @@ form {
     text-align: center;
     padding: 1em;
 }
-.viadeo-picto, .linkedin-picto {
+.viadeo-picto, .linkedin-picto, .github-picto {
     color: #171717;
     font-size: 3em; 
     margin: 0.3em;
@@ -202,5 +210,18 @@ form {
     }
     .row-menu {
         display: block;
+    }
+    
+    form {
+        width: 65%;
+    }
+    .text1{
+        width:70%;
+    }
+    .text2 {
+        width:90%;
+    }
+    .form-logo img {
+        height: 30vh;
     }
 }
