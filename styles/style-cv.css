@@ -253,7 +253,7 @@ main h1 {
     text-align: center;
     padding: 1em;
 }
-.viadeo-picto, .linkedin-picto, .github-picto {
+.viadeo-picto, .linkedin-picto, .github-picto, .codepen-picto {
     color: #171717;
     font-size: 3em; 
     margin: 0.3em;

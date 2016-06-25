@@ -97,23 +97,38 @@ main h1 {
     padding: 1em;
     text-transform: uppercase;
 }
+.id-section {
+    margin-bottom: 2em;
+}
 section img {
     height: 257px;
     width: 205px;
-    padding: 1em;
-    vertical-align: middle;
+}
+.img-id {
+    float: left;
+    margin-left: 25%;
 }
 .description-id{
-    background-color: white;
-    color: #171717;    
-    width: 30%;
-    margin: auto;
     padding: 1em;
+    margin-right: 25%;
+    float: right;
+    height: 257px;
+    width: 33%;
+    text-align: left;
+    border: solid 1px white;
+    color: white;
+    box-sizing: border-box;
 }
-section h2 { 
+.id-section h2 { 
     font-size: 1.5em;
+    margin-bottom: 1em;
     font-weight: 600;
     letter-spacing: 0.05em;
+}
+.id-section p {
+    text-align: justify;
+    line-height: 1.3em;
+    letter-spacing: 0.02em;
 }
 .fond-interet {    
     background-size: cover;
@@ -143,7 +158,7 @@ section h2 {
     text-align: center;
     padding: 1em;
 }
-.viadeo-picto, .linkedin-picto, .github-picto {
+.viadeo-picto, .linkedin-picto, .github-picto, .codepen-picto {
     color: #171717;
     font-size: 3em; 
     margin: 0.3em;
@@ -202,12 +217,17 @@ section h2 {
     .row-menu {
         display: block;
     }
+    
     .img-id {
-        float: left;
-        width: 50%;
+        float: none;
+        margin: auto;
     }
-    .description-id {
-        width: 50%;
+    .description-id{
+        float: none;
+        margin: auto;
+        width: 80%;
+        margin-top: 1em;
     }
+    
 }
 
