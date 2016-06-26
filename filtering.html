@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="export">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="filter &amp; sort magical layouts">
+
+  <title>Isotope &#xB7; Filtering</title>
+
+    <!-- Isotope does not require any CSS files -->
+    <link rel="stylesheet" href="styles/isotope-docs.css" media="screen">
+
+</head>
+<body>
+
+  
+
+<div data-js-module="filtering-demo">
+  <div class="filter-button-group button-group js-radio-button-group">
+    <button class="button is-checked" data-filter="*">Tous</button>
+    <button class="button" data-filter=".web">Web</button>
+    <button class="button" data-filter=".graphisme">graphisme</button>
+  </div>
+
+
+  <div class="grid">
+      <div class="element-item web " data-category="web">
+        <h5 class="name">Mercury</h5>
+        <p class="symbol">Hg</p>
+        <p class="number">80</p>
+        <p class="weight">200.59</p>
+      </div>
+      <div class="element-item web " data-category="web">
+        <h5 class="name">Tellurium</h5>
+        <p class="symbol">Te</p>
+        <p class="number">52</p>
+        <p class="weight">127.6</p>
+      </div>
+      <div class="element-item graphisme " data-category="graphisme">
+        <h5 class="name">Bismuth</h5>
+        <p class="symbol">Bi</p>
+        <p class="number">83</p>
+        <p class="weight">208.980</p>
+      </div>
+      <div class="element-item graphisme " data-category="graphisme">
+        <h5 class="name">Lead</h5>
+        <p class="symbol">Pb</p>
+        <p class="number">82</p>
+        <p class="weight">207.2</p>
+      </div>
+      <div class="element-item web " data-category="web">
+        <h5 class="name">Gold</h5>
+        <p class="symbol">Au</p>
+        <p class="number">79</p>
+        <p class="weight">196.967</p>
+      </div>
+  </div>
+  
+  </div>
+
+<!-- Looking for isotope.js? Use isotope.pkgd.min.js -->
+<!-- Isotope does NOT require jQuery. But it does make things easier -->
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+  <script src="js/isotope-docs.min.js"></script>
+
+
+</body>
+</html>

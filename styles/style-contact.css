@@ -173,6 +173,24 @@ form {
     font-size: 16px;
     height: 5em;
 }
+.dl-cv-div {
+    margin: 1em;
+}
+.dl-cv {
+    border: solid 1px #171717;
+    padding: 0.5em;
+    margin: auto;  
+    font-size: 1.2em;
+}
+.dl-cv:link {
+    text-decoration: none;
+    color: #171717;
+}
+.dl-cv:hover {
+    background-color: #171717;
+    color: white;
+}
+
 
 
 /* FORMAT TABLETTE */

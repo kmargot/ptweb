@@ -25,69 +25,65 @@
         </div>
         <main>
             <div class="wrapper clearfix">
-                <div class="portfolio-menu">
-                    <button id="bt-web" type="button" class="button-web" data-target="#web">Web</button>
-                    <button id="bt-graphisme" type="button" class="button-graphisme" data-target="#graphisme">Graphisme</button>
-                </div>
-                <div class="content ">
-                    <div class="grid">
-                        <figure id="web" class="tohide effect-julia integration-content">
-                            <img src="../../img/auberge.jpg" alt="auberge-rothlach"/>
-                            <figcaption>
-                                <h2>Auberge de <span>la Rothlach</span></h2>
-                                <div>
-                                    <p>Projet dans le cadre des études</p><br/>
-                                    <p>Wordpress</p><br/>
-                                    <p>Site responsive</p><br/>
-                                    <p><a href="https://ihavitrine.u-strasbg.fr/projets/mmi1/2015-2016/PTCOM2_GR16_henninger_keller/fr/auberge/" target="_blank"><i class="fa fa-search search-item" aria-hidden="true"></i></a></p>
-                                </div>
-                            </figcaption>			
-                        </figure>
-                        <figure id="graphisme" class="tohide effect-julia infographie-content">
-                            <img src="../../img/portfolio.jpg" alt="portfolio"/>
-                            <figcaption>
-                                <h2>Mon <span>portfolio</span></h2>
-                                <div>
-                                    <p>Projet dans le cadre des études</p><br/>
-                                    <p>HTML5/CSS3/JS</p><br/>
-                                    <p>Site responsive</p>
-                                </div>
-                            </figcaption>			
-                        </figure>
+                <div data-js-module="filtering-demo">
+                    <div class="filter-button-group button-group js-radio-button-group portfolio-menu clearfix">
+                        <button class="button is-checked" data-filter="*">Tous</button>
+                        <button class="button" data-filter=".web">Web</button>
+                        <button class="button" data-filter=".graphisme">graphisme</button>
                     </div>
-                </div>
-            </div>
 
-            <h1>infographie</h1>
-            <div class="wrapper clearfix">
-                <div class="content">
-                    <div class="grid">
-                        <figure class="effect-julia">
-                            <img src="../../img/portes_ouvertes.jpg" alt="portes-ouvertes"/>
-                            <figcaption>
-                                <h2>Auberge de <span>la Rothlach</span></h2>
-                                <div>
-                                    <p>Projet dans le cadre des études</p><br/>
-                                    <p>Wordpress</p><br/>
-                                    <p>Site responsive</p>
-                                    <p><a href="../../img/affiche_porte_ouverte.pdf" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a></p>
-                                </div>
-                            </figcaption>			
-                        </figure>
-                        <figure class="effect-julia">
-                            <img src="../../img/portfolio.jpg" alt="portfolio"/>
-                            <figcaption>
-                                <h2>Mon <span>portfolio</span></h2>
-                                <div>
-                                    <p>Projet dans le cadre des études</p><br/>
-                                    <p>HTML5/CSS3/JS</p><br/>
-                                    <p>Site responsive</p>
-                                </div>
-                                <a href="#">View more</a>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                </div>
+
+  <div class="grid">
+      <div class="grid-sarah">
+          <div class="element-item web " data-category="web">
+            <figure class="effect-sarah">
+						<img src="../../img/auberge.jpg" alt="auberge-rothlach"/>
+						<figcaption>
+							<h2>Auberge <span>rothlch</span></h2>
+							<p>Projet d'étude</p>
+                            <p>réalisé avec wordpress</p>
+                            <p>site responsive</p>                            
+							<a href="#">View more</a>
+						</figcaption>			
+              </figure>
+          </div>
+          <div class="element-item web " data-category="web">
+            <figure class="effect-sarah">
+						<img src="../../img/auberge.jpg" alt="auberge-rothlach"/>
+						<figcaption>
+							<h2>Auberge <span>rothlch</span></h2>
+							<p>Projet d'étude</p>
+                            <p>réalisé avec wordpress</p>
+                            <p>site responsive</p>                            
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+          </div>
+          <div class="element-item graphisme " data-category="graphisme">
+                    <figure class="effect-sarah">
+						<img src="../../img/auberge.jpg" alt="auberge-rothlach"/>
+						<figcaption>
+							<h2>Auberge <span>rothlch</span></h2>
+							<p>Projet d'étude</p>
+                            <p>réalisé avec wordpress</p>
+                            <p>site responsive</p>                            
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+                
+                
+                
+                
+					
+					
+                    
+				</div>
             </div>
         </main>
         <footer>
@@ -102,6 +98,9 @@
                         <a href="https://github.com/kmargot" target="_blank"><i class="fa fa-github github-picto" aria-hidden="true"></i></a>
                         <a href="https://codepen.io/kmargot/" target="_blank"><i class="fa fa-codepen codepen-picto" aria-hidden="true"></i></a>
                     </p>
+                    <p class="dl-cv-div">
+                    <a class="dl-cv" href="../../img/cv.pdf" download="cv_kellermargot"><i class="fa fa-download download-picto" aria-hidden="true"></i> Télécharger mon CV </a>
+                    </p>
                 </div>
             </section>
             <section class="footer-bas">
@@ -111,9 +110,9 @@
             </section>
         </footer>
         
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-        <script src="../../js/jquery-2.2.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
+        <script src="../../js/isotope-docs.min.js"></script>
         <script src="../../js/header-menu.js"></script>
-        <script src="../../js/portfolio.js"></script>
     </body>
 </html>

@@ -106,11 +106,11 @@ section img {
 }
 .img-id {
     float: left;
-    margin-left: 25%;
+    margin-left: 23%;
 }
 .description-id{
     padding: 1em;
-    margin-right: 25%;
+    margin-right: 23%;
     float: right;
     height: 257px;
     width: 33%;
@@ -127,6 +127,7 @@ section img {
 }
 .id-section p {
     text-align: justify;
+    font-size: 0.9em;
     line-height: 1.3em;
     letter-spacing: 0.02em;
 }
@@ -161,7 +162,8 @@ section img {
 .viadeo-picto, .linkedin-picto, .github-picto, .codepen-picto {
     color: #171717;
     font-size: 3em; 
-    margin: 0.3em;
+    margin: 0.2em;
+
 }
 .footer-haut h3 {
     text-transform: uppercase;
@@ -183,6 +185,24 @@ section img {
     font-size: 16px;
     height: 5em;
 }
+.dl-cv-div {
+    margin: 1em;
+}
+.dl-cv {
+    border: solid 1px #171717;
+    padding: 0.5em;
+    margin: auto;  
+    font-size: 1.2em;
+}
+.dl-cv:link {
+    text-decoration: none;
+    color: #171717;
+}
+.dl-cv:hover {
+    background-color: #171717;
+    color: white;
+}
+
 
 
 
